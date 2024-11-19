@@ -1,0 +1,54 @@
+body{
+	background-image: url(https://i.pinimg.com/736x/47/3a/3c/473a3ce61383cbb44f97fadb6fa39c48.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.header{
+	background-color: #11262D;
+	color: #BAD8DF;
+	margin: 0;
+	padding:50px;
+	width: 100%;
+	font-family: merriweather sans;
+}
+.container{
+	margin-top: 50px;
+	width: 100%;
+	font-family: assistant;
+}
+
+.table{
+	border:2px solid #11262D ;
+}
+.table th, .table td{
+	vertical-align: middle;
+	padding: 15px;
+	border: 1px solid #383F46;
+}
+.table thead{
+	font-weight: bold;
+	font-family: merriweather sans;
+}
+p{
+	font-family: assistant
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.text-left{
+	text-align: left;
+}
+img:hover{
+	transform: scale(1.1)
+}
+.table tbody tr:hover{
+	transform: scale(1.03);
+	box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.75);
+}
